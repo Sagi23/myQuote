@@ -1,0 +1,170 @@
+:root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(/static/logo2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #031439;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.watermark {
+  display: none;
+}
+
+.quote-area {
+  text-align: center;
+}
+
+.quote-area .quote-text {
+  display: block;
+  margin-top: 50%;
+  background-color: white;
+  color: black;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.quote-area .quote-text .show {
+  display: none;
+}
+
+.quote-area .quote-text .save-btn {
+  background-color: #031439;
+  color: white;
+}
+
+.quote-area .btn {
+  margin-top: 5%;
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 1em;
+  background-color: #e5e5e5;
+}
+
+.quote-area .btn:hover {
+  cursor: pointer;
+}
+
+.my-quote {
+  color: white;
+  text-align: center;
+}
+
+.my-quote ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  overflow: auto;
+  height: 15em;
+}
+
+.delete-btn {
+  background-color: #951904;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5 1em;
+  color: #fffdf7;
+  font-size: 0.7rem;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #14213d;
+  left: 0;
+  text-align: center;
+  font-size: 0.5rem;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #89a1d4;
+}
+
+@media (min-width: 769px) {
+  :root {
+    height: 100vh;
+    background-image: url(/static/logo1.svg);
+    background-repeat: no-repeat;
+    background-size: 888.47px 1659.25px;
+    background-position: bottom 70% left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 25px;
+  }
+  .watermark {
+    display: block;
+    color: white;
+    position: fixed;
+    z-index: 7;
+    letter-spacing: 20px;
+    top: -50px;
+    opacity: 2%;
+    left: 3em;
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .illu {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    background-image: url(/static/human-2099157.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    height: 110px;
+    color: #031439;
+  }
+  .quote-area {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .quote-area .quote-text {
+    margin-top: 10em;
+  }
+  .my-quote {
+    margin-top: 10.5em;
+  }
+  .my-quote ul {
+    margin-left: 1em;
+    text-align: left;
+  }
+}
+
+@media (min-width: 2500px) {
+  :root {
+    background-size: 1400.47px 2500.25px;
+    font-size: 40px;
+  }
+  .watermark {
+    top: -10%;
+    left: 0;
+    font-size: 8rem;
+  }
+  .illu {
+    background-position: bottom 20% left;
+    background-size: 25%;
+    height: 500px;
+  }
+  .quote-area .btn {
+    font-size: 0.7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
