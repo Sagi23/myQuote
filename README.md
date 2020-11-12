@@ -18,9 +18,9 @@ integrated the js to the html file and made the site interactive.
 
 ### What i learned:
 
-Better reading API docs.  
-Better understanding of DOM and promises.  
-Better using scss.
+Improved reading API docs.  
+Improved understanding of DOM and promises.  
+Improved using scss.
 
 ### The site:
 
